@@ -69,3 +69,56 @@ A **digital twin** of the E-nose is created to simulate sensor responses virtual
 ---
 
 ## 🗂️ Project Structure
+Digital-Twin-for-Lung-Cancer-Detection-using-E-nose/
+│
+├── data/
+│ ├── raw_data.csv
+│ └── processed_data.csv
+│
+├── preprocessing/
+│ ├── data_cleaning.py
+│ ├── normalization.py
+│ └── feature_extraction.py
+│
+├── simulation/
+│ └── enose_digital_twin.py
+│
+├── models/
+│ ├── train_model.py
+│ ├── predict.py
+│ └── evaluate_model.py
+│
+├── results/
+│ ├── metrics.txt
+│ └── plots/
+│
+├── requirements.txt
+├── main.py
+└── README.md
+
+
+---
+
+## 📊 Dataset Information
+- VOC-based breath analysis dataset
+- Numerical sensor readings representing chemical compounds
+- Binary classification labels:
+  - `0` → Non-cancer
+  - `1` → Lung cancer
+
+> ⚠️ Note: Dataset used is for **research and educational purposes only**.
+
+---
+
+## ⚙️ Installation & Setup
+
+### Step 1: Clone Repository
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+cd YOUR_REPO_NAME
+
+Step 2: Install Dependencies
+pip install -r requirements.txt
+
+Step 3: Run the Project
+python main.py
