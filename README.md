@@ -111,8 +111,6 @@ Digital-Twin-for-Lung-Cancer-Detection-using-E-nose/
 ---
 
 ## ⚙️ Installation & Setup
-
-### Step 1: Clone Repository
 ```bash
 git clone https://github.com/Simranjit15kaur/lung-cancer.git
 
@@ -121,20 +119,6 @@ pip install -r requirements.txt
 
 Step 3: Run the Project
 python main.py
-
-📈 Model Evaluation Metrics
-
-Accuracy
-
-Precision
-
-Recall
-
-F1-Score
-
-Confusion Matrix
-
-Results may vary depending on:
 
 Dataset size
 
