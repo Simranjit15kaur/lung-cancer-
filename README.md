@@ -119,9 +119,3 @@ pip install -r requirements.txt
 
 Step 3: Run the Project
 python main.py
-
-Dataset size
-
-Feature selection
-
-Model parameters
